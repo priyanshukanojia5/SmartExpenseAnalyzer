@@ -1,8 +1,28 @@
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# Vercel
+.vercel/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
 .venv/
 venv/
-.env
-.env.*
-.vercel/
+
+# Streamlit
+.streamlit/
+
+# macOS
 .DS_Store
+
+# Python generated files
